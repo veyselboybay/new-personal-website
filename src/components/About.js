@@ -34,14 +34,10 @@ function About() {
       </Heading>
       <Container>
         <p>
-          I, a software developer who is hard working, self-driven and
-          motivated, would like to take on technical challenges and expreiences.
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est totam
-          temporibus distinctio explicabo corporis nemo aspernatur? Illo ad esse
-          dicta exercitationem. Corrupti sed neque rem! Quod corporis
-          consectetur pariatur amet?
+          Hi! My name is Veysel Boybay and I enjoy creating beautiful web apps
+          and mobile apps and also I have a great desire to learn new skills
+          that would help me creating new projects. Here are some skills I
+          possess:
         </p>
       </Container>
       <Container className="aboutcontainer">
