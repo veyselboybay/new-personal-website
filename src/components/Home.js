@@ -84,7 +84,7 @@ function Home() {
             </Col>
             <Col md={6} style={{ marginTop: "20px" }}>
               <h3 style={{ textAlign: "center" }}>Veysel Boybay</h3>
-              <p style={{ fontFamily: "cursive" }}>
+              <p>
                 I am a dedicated and ambitious software developer with a passion
                 for tackling complex technical challenges and a never-ending
                 desire to learn. Possessing strong analytical skills and a

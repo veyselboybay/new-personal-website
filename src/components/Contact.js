@@ -11,7 +11,7 @@ function Contact() {
         <h2>Get In Touch</h2>
       </Heading>
       <Container className="contactContainer">
-        <p style={{ fontFamily: "cursive" }}>
+        <p style={{ fontFamily: "monospace" }}>
           It would be wonderful to speak with you. Please feel free to email..
         </p>
         <Row>

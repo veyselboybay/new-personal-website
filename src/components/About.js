@@ -34,7 +34,7 @@ function About() {
         <h2>About Me</h2>
       </Heading>
       <Container>
-        <p style={{ fontFamily: "cursive" }}>
+        <p>
           Hi! My name is Veysel Boybay and I enjoy creating beautiful web apps
           and mobile apps. Besides that, learning new skills and using them in a
           project is one of my fun activities. Here are some of my skills,
