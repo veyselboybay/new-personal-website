@@ -18,12 +18,7 @@ function Projects() {
       <Heading>
         <h2>Projects</h2>
       </Heading>
-      <Container>
-        <p style={{ textAlign: "center" }}>
-          I, a software developer who is hard working, self-driven and
-          motivated, would like to take on technical challenges and expreiences.
-        </p>
-      </Container>
+
       <Container className="projectsContainer">
         {/* --------------------------------------DIVIDER------------------------------------------------ */}
         <ProjectHeading>React Based Projects</ProjectHeading>

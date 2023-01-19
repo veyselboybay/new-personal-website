@@ -11,8 +11,8 @@ function Contact() {
         <h2>Get In Touch</h2>
       </Heading>
       <Container className="contactContainer">
-        <p>
-          Whenever you want, you can just reach me out via email button below.
+        <p style={{ fontFamily: "cursive" }}>
+          It would be wonderful to speak with you. Please feel free to email..
         </p>
         <Row>
           <a href="mailto:veysel.boybay@outlook.com?subject=Say Hello!">

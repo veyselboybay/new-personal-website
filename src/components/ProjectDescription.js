@@ -1,7 +1,8 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCodeBranch, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function ProjectDescription({ name, description, repoLink }) {
   return (
     <div className="projectDescription">
@@ -10,16 +11,14 @@ function ProjectDescription({ name, description, repoLink }) {
       </h5>
       <p style={{ color: "grey" }}>{description}</p>
       <p style={{ display: "flex" }}>
-        <FontAwesomeIcon icon={faStar} style={{ marginRight: "10px" }} /> See
-        Full Project
         <Button
           style={{ marginLeft: "auto", marginRight: "30px" }}
           size="sm"
-          variant="outline-primary"
+          variant="outline-success"
           href={repoLink}
           target="_blank"
         >
-          <FontAwesomeIcon icon={faCodeBranch} /> Go to GitHub
+          <FontAwesomeIcon icon={faGithub} /> See Repository
         </Button>
       </p>
     </div>

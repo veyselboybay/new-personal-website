@@ -25,6 +25,7 @@ import {
   faJenkins,
   faDev,
   faAws,
+  faAngular,
 } from "@fortawesome/free-brands-svg-icons";
 function About() {
   return (
@@ -33,11 +34,11 @@ function About() {
         <h2>About Me</h2>
       </Heading>
       <Container>
-        <p>
+        <p style={{ fontFamily: "cursive" }}>
           Hi! My name is Veysel Boybay and I enjoy creating beautiful web apps
-          and mobile apps and also I have a great desire to learn new skills
-          that would help me creating new projects. Here are some skills I
-          possess:
+          and mobile apps. Besides that, learning new skills and using them in a
+          project is one of my fun activities. Here are some of my skills,
+          education and experience history:
         </p>
       </Container>
       <Container className="aboutcontainer">
@@ -60,7 +61,8 @@ function About() {
             <FontAwesomeIcon icon={faHtml5} /> HTML5,{" "}
             <FontAwesomeIcon icon={faCss3} /> CSS3,{" "}
             <FontAwesomeIcon icon={faJs} /> JAVASCRIPT,{" "}
-            <FontAwesomeIcon icon={faReact} /> REACTJS
+            <FontAwesomeIcon icon={faReact} /> REACTJS,{" "}
+            <FontAwesomeIcon icon={faAngular} /> Angular
           </Col>
         </Row>
         <Row
@@ -86,7 +88,7 @@ function About() {
           <Col md={6}>
             <SkillsHead>Database</SkillsHead>
             {"  "}
-            <FontAwesomeIcon icon={faCode} /> SQL(MYSQL), NOSQL(MONGODB)
+            <FontAwesomeIcon icon={faCode} /> SQL, MONGODB
           </Col>
           <Col md={6}>
             <SkillsHead>DevOps</SkillsHead>

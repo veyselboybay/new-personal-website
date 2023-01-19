@@ -84,12 +84,13 @@ function Home() {
             </Col>
             <Col md={6} style={{ marginTop: "20px" }}>
               <h3 style={{ textAlign: "center" }}>Veysel Boybay</h3>
-              <p>
-                A dedicated and ambitious software developer with a passion for
-                tackling complex technical challenges and a never-ending desire
-                to learn. Possessing strong analytical skills and a proven track
-                record of effectively collaborating with cross-functional teams
-                to solve problems and drive results.
+              <p style={{ fontFamily: "cursive" }}>
+                I am a dedicated and ambitious software developer with a passion
+                for tackling complex technical challenges and a never-ending
+                desire to learn. Possessing strong analytical skills and a
+                proven track record of effectively collaborating with
+                cross-functional teams to solve problems and drive results are
+                my assets.
               </p>
               <a href={resume} target="_blank">
                 <Button variant="outline-success">View Resume</Button>
