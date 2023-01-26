@@ -186,7 +186,46 @@ function About() {
                   fontWeight: "bold",
                 }}
               >
-                2017
+                2016 - 2017
+              </span>
+            </div>
+          </Col>
+        </Row>
+        <Row style={{ paddingTop: "20px" }}>
+          <Col>
+            <div
+              style={{
+                // width: "60vw",
+                marginRight: "auto",
+                marginLeft: "auto",
+              }}
+            >
+              <span style={{ float: "left", paddingLeft: "40px" }}>
+                <FontAwesomeIcon icon={faSchool} />{" "}
+                <span
+                  style={{
+                    fontSize: "1.1rem",
+                    fontWeight: "bold",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  International Relations
+                </span>{" "}
+                <br />
+                Bachelor's Degree
+                <br />
+                <span style={{ textAlign: "left" }}>
+                  Turkish Military Academy, Ankara, Turkey
+                </span>
+              </span>
+              <span
+                style={{
+                  float: "right",
+                  paddingRight: "40px",
+                  fontWeight: "bold",
+                }}
+              >
+                2013 - 2016
               </span>
             </div>
           </Col>
@@ -265,6 +304,78 @@ function About() {
                   </li>
                   <li>
                     Completed given tasks successfully in an allotted timeframe
+                  </li>
+                </ul>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <Container style={{ paddingTop: "20px" }}>
+          <Row>
+            <Col>
+              <div
+                style={{
+                  // width: "60vw",
+                  // marginRight: "auto",
+                  // marginLeft: "auto",
+                  textAlign: "left",
+                }}
+              >
+                <span style={{ paddingLeft: "40px", float: "left" }}>
+                  <FontAwesomeIcon icon={faBriefcase} />
+                  <span
+                    style={{
+                      paddingLeft: "10px",
+                      fontWeight: "bold",
+                      fontSize: "1.1rem",
+                    }}
+                  >
+                    Data Operations Specialist
+                  </span>
+                  <br />
+                  <span style={{ paddingLeft: "25px" }}>
+                    RedMill Solutions, Izmir, Turkey
+                  </span>
+                </span>
+                <span
+                  style={{
+                    float: "right",
+                    paddingRight: "40px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  Feb 2018 - Nov 2018
+                </span>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <div
+                style={{
+                  // width: "60vw",
+                  marginRight: "auto",
+                  marginLeft: "auto",
+                  textAlign: "left",
+                  paddingTop: "10px",
+                }}
+              >
+                <ul>
+                  <li>
+                    I was in touch with media agencies to get our clients’
+                    advertisement data
+                  </li>
+                  <li>
+                    Worked on the advertisement data for cleaning, organizing,
+                    and preparing for further analysis
+                  </li>
+                  <li>
+                    Mainly used company software to visualize uploaded data for
+                    last touch-ups
+                  </li>
+                  <li>
+                    Collaborated with the cross-border teams in London (UK) and
+                    Guangzhou (China)
                   </li>
                 </ul>
               </div>
