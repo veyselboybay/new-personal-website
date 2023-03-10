@@ -215,7 +215,7 @@ function About() {
                 Bachelor's Degree
                 <br />
                 <span style={{ textAlign: "left" }}>
-                  Turkish Military Academy, Ankara, Turkey
+                  Turkish National Defense University, Ankara, Turkey
                   <br />
                   (Not Completed, Transfered to Ege University.)
                 </span>
