@@ -216,6 +216,8 @@ function About() {
                 <br />
                 <span style={{ textAlign: "left" }}>
                   Turkish Military Academy, Ankara, Turkey
+                  <br />
+                  (Not Completed, Transfered to Ege University.)
                 </span>
               </span>
               <span
