@@ -6,21 +6,28 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import PersonalPic from "../assets/images/whiteJacket1.jpg";
 import logo from "../assets/images/logo1.JPG";
-import resume from "../assets/docs/resume.pdf";
+import pythonLogo from "../assets/images/python-logo.png";
+import expressjs from "../assets/images/expressjs.png";
+import graphql from "../assets/images/graphql.png";
+import mongodb from "../assets/images/mongodb.png";
+import nodejs from "../assets/images/nodejs.png";
+import react from "../assets/images/react.png";
+import redux from "../assets/images/redux.png";
+import sql from "../assets/images/sql.png";
+import csharp from "../assets/images/csharp.png";
+import java from "../assets/images/java.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouseUser,
   faAddressCard,
   faDiagramProject,
   faAddressBook,
-  faSquareEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedinIn,
-  faHackerrank,
 } from "@fortawesome/free-brands-svg-icons";
-import { Button } from "react-bootstrap";
+
 function Home() {
   return (
     <div>
@@ -61,13 +68,7 @@ function Home() {
                   <FontAwesomeIcon icon={faGithub} />{" "}
                   <span className="socialLogo">GitHub</span>
                 </Nav.Link>
-                <Nav.Link
-                  href="https://www.hackerrank.com/veysel5084"
-                  target="_blank"
-                >
-                  <FontAwesomeIcon icon={faHackerrank} />{" "}
-                  <span className="socialLogo">HackerRank</span>
-                </Nav.Link>
+                
               </Nav>
             </Navbar.Collapse>
           </Container>
@@ -84,17 +85,27 @@ function Home() {
             </Col>
             <Col md={6} style={{ marginTop: "20px" }}>
               <h3 style={{ textAlign: "center" }}>Veysel Boybay</h3>
-              <p>
-                I am a dedicated and ambitious software developer with a passion
-                for tackling complex technical challenges and a never-ending
-                desire to learn. Possessing strong analytical skills and a
-                proven track record of effectively collaborating with
-                cross-functional teams to solve problems and drive results are
-                my assets.
+              <h6 style={{ textAlign: "center" }}> --- Full Stack Software Developer ---</h6>
+              <p style={{paddingTop:'20px'}}>
+                I am a passionate full-stack developer who enjoys collaborating with others to achieve outstanding results. Continuous learning is one of my assets to improve my ability to contribute to any project.
               </p>
-              <a href={resume} target="_blank">
-                <Button variant="outline-success">View Resume</Button>
-              </a>
+              <Row>
+                <Col style={{textAlign:'center', paddingTop:'10vh'}}>
+                  {/* <FontAwesomeIcon icon={faReact} />{" "}
+                  <FontAwesomeIcon icon={faNodeJs} />{" "}
+                  <FontAwesomeIcon icon={faPython} />{" "} */}
+                  <img src={react} width="30vw" alt="react" /> -
+                  <img src={redux} width="30vw" alt="redux"/> - 
+                  <img src={nodejs} width="30vw" alt="nodejs"/> - 
+                  <img src={expressjs} width="30vw" alt="expressjs"/> - 
+                  <img src={mongodb} width="30vw" alt="mongodb"/> - 
+                  <img src={sql} width="30vw" alt="sql"/> <br />
+                  <img src={pythonLogo} width="30vw" alt="python-logo"/> - 
+                  <img src={graphql} width="30vw" alt="graphql"/> - 
+                  <img src={java} width="30vw" alt="java"/> - 
+                  <img src={csharp} width="30vw" alt="csharp"/> 
+                </Col>
+              </Row>
             </Col>
           </Row>
         </Container>

@@ -1,36 +1,37 @@
-
-*{
+* {
     /* height: 100vh; */
     /* width: 98.6vw; */
     padding-right: auto;
-    padding-left:auto;
+    padding-left: auto;
     font-family: 'Times New Roman', Times, serif;
 }
-.section{
-    width: 98.6vw;;
-}
-.sectionAbout{
 
-}
-.sectionProject{
-
+.section {
+    width: 98.6vw;
+    ;
 }
 
-.logo{
+.sectionAbout {}
+
+.sectionProject {}
+
+.logo {
     width: 20%;
 }
-.socialLogo{
-    display:none;
+
+.socialLogo {
+    display: none;
 }
 
-#personalPic{
+#personalPic {
     width: 40%;
     height: 90%;
     margin-right: auto;
     margin-left: auto;
     border-radius: 5%;
 }
-#homecontainer{
+
+#homecontainer {
     background-color: rgba(255, 255, 255, 0.459);
     /* height: 86%; */
     margin-top: 15px;
@@ -39,57 +40,71 @@
     padding-bottom: 40px;
     margin-bottom: 30px;
 }
-.aboutcontainer{
+
+.aboutcontainer {
     background-color: rgba(255, 255, 255, 0.459);
-        /* height: 86%; */
-        margin-top: 50px;
-        border-radius: 2%;
-        padding-top: 10px;
+    /* height: 86%; */
+    margin-top: 50px;
+    border-radius: 2%;
+    padding-top: 10px;
     padding-bottom: 30px;
 }
-.projectsContainer{
+
+.projectsContainer {
     background-color: rgba(255, 255, 255, 0.459);
-        height: 86%;
-        border-radius: 2%;
-        padding-top: 10px;
-        margin-top: 50px;
-        overflow-y: visible;
-        padding-bottom: 20px;
+    height: 86%;
+    border-radius: 2%;
+    padding-top: 10px;
+    margin-top: 50px;
+    overflow-y: visible;
+    padding-bottom: 20px;
 }
-.contactContainer{
+
+.contactContainer {
     background-color: rgba(255, 255, 255, 0.459);
-        border-radius: 2%;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        margin-bottom: 30px;
-        text-align: center;
+    border-radius: 2%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    text-align: center;
 }
-.projectDescription{
-    padding-top:10px;
-    padding-bottom:10px;
+
+.projectDescription {
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     margin: 10px 20px;
-    /* border: 1px solid black; */
-    border-radius: 5%;
-    background-color: #eff8ec;
+    /* border: 1px solid #73a363; */
+    /* border-radius: 5%; */
+    /* background-color: #eff8ec; */
 }
+
+.projectDescription:hover {
+    /* border: 1px solid #5deb5d; */
+    background-color: #9cfa7717;
+    transition: all 1s ease-in-out;
+}
+
 @media screen and (min-width: 1300px) {
-    .section{
+    .section {
         /* height: 70vh; */
     }
 }
 
 @media screen and (max-width: 440px) {
-    .logo{
+    .logo {
         width: 40%;
     }
-    .socialLogo{
-        display:inline;
+
+    .socialLogo {
+        display: inline;
     }
 }
+
 @media screen and (max-width: 920px) {
+
     /*  */
-    .socialLogo{
-        display:inline;
+    .socialLogo {
+        display: inline;
     }
 }

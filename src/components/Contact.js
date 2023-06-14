@@ -1,9 +1,9 @@
 import React from "react";
-import { Row, Button } from "react-bootstrap";
+import { Row, Button, Col } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Heading from "./StyledHeading";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope,faEnvelopeOpenText } from "@fortawesome/free-solid-svg-icons";
 function Contact() {
   return (
     <div className="sectionProject" id="contact" style={{ marginTop: "20px" }}>
@@ -12,14 +12,22 @@ function Contact() {
       </Heading>
       <Container className="contactContainer">
         <p style={{ fontFamily: "monospace" }}>
-          It would be wonderful to speak with you. Please feel free to email..
+          It would be wonderful to speak with you. Please feel free to contact!
         </p>
         <Row>
-          <a href="mailto:veysel.boybay@outlook.com?subject=Say Hello!">
-            <Button variant="outline-success" size="lg">
-              <FontAwesomeIcon icon={faEnvelope} /> Say Hello!
+          <Col md={5}>
+            <div>
+              <FontAwesomeIcon icon={faEnvelopeOpenText} size="lg"/> Email: veysel.boybay@outlook.com
+            </div>
+          </Col>
+          <Col md={1}>or</Col>
+          <Col md={6}>
+            <a href="mailto:veysel.boybay@outlook.com?subject=RE:">
+            <Button variant="outline-success" >
+              <FontAwesomeIcon icon={faEnvelope} /> Email
             </Button>{" "}
           </a>
+          </Col>
         </Row>
       </Container>
     </div>

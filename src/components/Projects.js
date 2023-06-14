@@ -2,12 +2,12 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import Heading from "./StyledHeading";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
 import ProjectDescription from "./ProjectDescription";
 import styled from "styled-components";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 function Projects() {
   return (
     <div
@@ -20,66 +20,56 @@ function Projects() {
       </Heading>
 
       <Container className="projectsContainer">
+        <Row>
+          <Col md={6}>
+            <ProjectDescription
+              name={"Condo Management"}
+              description={<p style={{ color: "grey" }}>I've programmed and developed a <span  style={{textDecoration:'underline'}}>Full Stack application</span> to be used in condo buildings where users can signup/signin, post to newsfeed or register their car to parking system. Technologies I've used while developing it are  <span style={{textDecoration:'underline'}}> React, React-Router, Redux-Toolkit, Node/Express.js and MongoDB.</span></p>}
+              repoLink={"https://github.com/veyselboybay/condo-mng-client"} apiLink={"https://github.com/veyselboybay/condo-mng-API"}
+            />
+          </Col>
+          <Col md={6}>
+            <ProjectDescription
+              name={"Library API"}
+              description={<p  style={{ color: "grey" }}>I've developed a <span  style={{textDecoration:'underline'}}>REST API</span> that to be used in the front end. Library api provides end-points for sign-up, sign-in, adding books to users' libraries. Technologies I've used while developing it are  <span style={{textDecoration:'underline'}}>  Node/Express.js, JsonWebToken, Joi and MongoDB.</span></p>}
+              repoLink={"https://github.com/veyselboybay/LibraryRestApi"}
+            />
+          </Col>
+        </Row>
+        <hr/>
         {/* --------------------------------------DIVIDER------------------------------------------------ */}
-        <ProjectHeading>React Based Projects</ProjectHeading>
         <Row>
           <Col md={6}>
             <ProjectDescription
               name={"Recipe Application"}
-              description={`I’ve used React and Spoonacular API to create a recipe application where users can see
+              description={<p style={{ color: "grey" }}>I’ve used <span style={{textDecoration:'underline'}}>React and Spoonacular API</span> to create a recipe application where users can see
                 popular or vegetarian recipes for their next meal. Also, they can search for recipes and
-                find delicious meals.`}
+                find delicious meals.</p>}
               repoLink={"https://github.com/veyselboybay/react-recipe-app"}
             />
           </Col>
           <Col md={6}>
             <ProjectDescription
               name={"Patient Control System"}
-              description={`I've created a full stack application using React, NodeJS, GraphQL API and MongoDB.
-                Users can register and log in to the system as well as display and add/edit their data either as a nurse or patient.`}
+              description={<p  style={{ color: "grey" }}>I've created a full stack application using <span style={{textDecoration:'underline'}}> React, NodeJS, GraphQL API and MongoDB.</span>
+                Users can register and log in to the system as well as display and add/edit their data either as a nurse or patient.</p>}
               repoLink={"https://github.com/veyselboybay/patient-nurse-app"}
             />
           </Col>
         </Row>
         {/* --------------------------------------DIVIDER------------------------------------------------ */}
-        <ProjectHeading>NodeJs - ExpressJs Projects</ProjectHeading>
-        <Row>
-          <Col md={6}>
-            <ProjectDescription
-              name={"JWT Authentication Project"}
-              description={`Created a JWT Authentication using Expressjs. Also, I’ve used @hapi/joi to validate the
-                data and bcryptjs to crypt the password before saving it to MongoDB.`}
-              repoLink={"https://github.com/veyselboybay/JWT_Auth_ExpressJs"}
-            />
-          </Col>
-          <Col md={6}>
-            <ProjectDescription
-              name={"RestApi ExpressJS Project"}
-              description={`I've created a restful API with ExpressJS. HTTP methods are tested using POSTMAN and
-                the data is saved to the MongoDB Atlas cloud database.`}
-              repoLink={"https://github.com/veyselboybay/RestApi_Mongo_Express"}
-            />
-          </Col>
+        <Row style={{width:'50%', marginRight:'auto',marginLeft:'auto'}}>
+          <Button
+          style={{ marginLeft: "auto", marginRight: "30px" }}
+          size="sm"
+          variant="outline-primary"
+          href="https://github.com/veyselboybay"
+          target="_blank"
+        >
+          <FontAwesomeIcon icon={faGithub} /> Check out all my work
+        </Button>
         </Row>
-        {/* --------------------------------------DIVIDER------------------------------------------------ */}
-        <ProjectHeading>Flutter/Dart Projects</ProjectHeading>
-        <Row>
-          <Col md={6}>
-            <ProjectDescription
-              name={"Meal App"}
-              description={`This is a meal mobile application and it's created using Flutter/Dart language. In this application, users can display meals and see its ingredients and how-to-cook instructions.`}
-              repoLink={"https://github.com/veyselboybay/FlutterMealApp"}
-            />
-          </Col>
-          <Col md={6}>
-            <ProjectDescription
-              name={"ToDo App"}
-              description={`I've created a ToDo list mobile application using Flutter/Dart language. Users can create a todo list, add and delete items from their list.`}
-              repoLink={"https://github.com/veyselboybay/ToDoAppFlutter"}
-            />
-          </Col>
-        </Row>
-        {/* --------------------------------------DIVIDER------------------------------------------------ */}
+        
       </Container>
     </div>
   );
