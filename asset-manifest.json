@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.9129ef09.css",
-    "main.js": "/static/js/main.f8f5f182.js",
+    "main.js": "/static/js/main.81fa49f4.js",
     "static/js/787.6568e1bc.chunk.js": "/static/js/787.6568e1bc.chunk.js",
-    "static/media/whiteJacket1.jpg": "/static/media/whiteJacket1.1e4ca10413ed2fec8063.jpg",
+    "static/media/linkedinppp.png": "/static/media/linkedinppp.ad4eabd373d9b93344da.png",
     "static/media/logo1.JPG": "/static/media/logo1.846efac1b9bafa44761e.JPG",
     "index.html": "/index.html",
     "main.9129ef09.css.map": "/static/css/main.9129ef09.css.map",
-    "main.f8f5f182.js.map": "/static/js/main.f8f5f182.js.map",
+    "main.81fa49f4.js.map": "/static/js/main.81fa49f4.js.map",
     "787.6568e1bc.chunk.js.map": "/static/js/787.6568e1bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9129ef09.css",
-    "static/js/main.f8f5f182.js"
+    "static/js/main.81fa49f4.js"
   ]
 }
