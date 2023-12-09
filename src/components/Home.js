@@ -4,7 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import PersonalPic from "../assets/images/whiteJacket1.jpg";
+// import PersonalPic from "../assets/images/whiteJacket1.jpg";
+import PersonalPic from "../assets/images/linkedinppp.png";
 import logo from "../assets/images/logo1.JPG";
 import pythonLogo from "../assets/images/python-logo.png";
 import expressjs from "../assets/images/expressjs.png";
@@ -87,7 +88,7 @@ function Home() {
               <h3 style={{ textAlign: "center" }}>Veysel Boybay</h3>
               <h6 style={{ textAlign: "center" }}> --- Full Stack Software Developer ---</h6>
               <p style={{paddingTop:'20px'}}>
-                I am a passionate full-stack developer who enjoys collaborating with others to achieve outstanding results. Continuous learning is one of my assets to improve my ability to contribute to any project.
+                I excel in crafting innovative web applications by leveraging my expertise in React for front-end development and Node/Express or Django/FastAPI for robust back-end solutions. Committed to delivering high-quality, user-centric software experiences through technical proficiency and a passion for innovation.
               </p>
               <Row>
                 <Col style={{textAlign:'center', paddingTop:'10vh'}}>

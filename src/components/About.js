@@ -5,6 +5,7 @@ import Technologies from "./Technologies";
 import Education from "./Education";
 import Experience from "./Experience";
 import Volunteer from "./Volunteer";
+import Certifications from "./Certifications";
 
 function About() {
   return (
@@ -14,6 +15,7 @@ function About() {
       </Heading>
       <Experience />
       <Education />
+      <Certifications />
     </div>
   );
 }

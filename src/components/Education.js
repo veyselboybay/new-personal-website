@@ -47,12 +47,20 @@ const Education = () => {
                   fontWeight: "bold",
                 }}
               >
-                Grad. Apr 2023 
+                Apr 2023 
               </span>
-            </div>
-          </Col>
-        </Row>
-        <Row style={{ paddingTop: "20px" }}>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <div style={{paddingLeft:'40px'}}>
+            <p style={{marginBottom:'0px',paddingBottom:'0px', marginTop:'10px'}}><b>Highlights of skills:</b> Front End Development, Back End Development, Full Stack Development, Cloud Development</p>
+            <p style={{marginTop:'0px', paddingTop:'0px'}}><b>Skills Gained:</b> Python, Java, C#, JavaScript, Node.js, Spring Boot, React, SQL, NoSQL, UML, ER, Unix/Linux, Git, GitHub, AWS, Docker, Jenkins</p>
+          </div>
+        </Col>
+      </Row>
+        {/* <Row style={{ paddingTop: "20px" }}>
           <Col>
             <div
               style={{
@@ -90,7 +98,7 @@ const Education = () => {
               </span>
             </div>
           </Col>
-        </Row>
+        </Row> */}
         
       </Container>
   )
